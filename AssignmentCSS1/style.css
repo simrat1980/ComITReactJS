@@ -1,0 +1,90 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+
+  }
+  nav ul li{
+    border:1px solid #a66;
+    margin-top: 1em;
+    list-style-type: none;
+    padding:0.5em 0.5em;
+    text-align: center;
+  }
+  nav a{
+    text-decoration: none;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  h1,h2{
+    letter-spacing: 0.1em;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  h1{
+      text-align: center;
+  }
+    /* WRITE YOUR CODE BELOW HERE */
+    section h2+p{
+        text-indent: 20px;
+    }
+    a:link{
+        color: #a66;
+        
+    }
+    a:visited{
+        color:green;
+    }
+    a:active{
+        color:yellowgreen
+    }
+    a:hover{
+        color:blueviolet;
+        text-decoration: none;
+     }
+    a.ext::after{
+        content: url(external_link.png);
+    }
+    Section ul{
+        list-style-image: url(bullet.png);
+    }
+    
